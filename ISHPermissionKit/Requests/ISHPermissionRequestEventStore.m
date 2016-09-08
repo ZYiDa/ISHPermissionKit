@@ -9,13 +9,17 @@
 #import "ISHPermissionRequestEventStore.h"
 #import "ISHPermissionRequest+Private.h"
 
-@import EventKit;
+//@import EventKit;
 
+/*
 @interface ISHPermissionRequestEventStore ()
+
 @property (nonatomic) EKEventStore *eventStore;
 @end
+*/
 
 @implementation ISHPermissionRequestEventStore
+/*
 - (EKEntityType)entityType {
     if (self.permissionCategory == ISHPermissionCategoryReminders) {
         return EKEntityTypeReminder;
@@ -60,5 +64,5 @@
         });
     }];
 }
-
+*/
 @end
