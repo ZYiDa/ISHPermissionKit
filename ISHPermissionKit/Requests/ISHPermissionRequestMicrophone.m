@@ -9,7 +9,7 @@
 #import "ISHPermissionRequestMicrophone.h"
 #import "ISHPermissionRequest+Private.h"
 
-@import AVFoundation;
+//@import AVFoundation;
 
 @implementation ISHPermissionRequestMicrophone
 
